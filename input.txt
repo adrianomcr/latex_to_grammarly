@@ -36,4 +36,4 @@ Visit \url{xquadufmg.com}
 
 \color{black} \color{red} \test{green} \label{sec:conclusion} \notlabel{something}
 
-\textcolor{red}{This is a textin red} - \textcolor{green}{This is a textin green} - \nottextcolor{green}{This is NOT a textin yellow}
+\textcolor{red}{This is a text in red} - \textcolor{green}{This is a text in green} - \nottextcolor{green}{This is NOT a text in yellow}

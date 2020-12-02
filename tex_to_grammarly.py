@@ -7,8 +7,6 @@ class converter():
 
 	def __init__(self):
 
-		self.status = "green"
-
 		self.s0 = self.read_input_text()
 		self.s = self.s0
 

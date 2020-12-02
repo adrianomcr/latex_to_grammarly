@@ -1,5 +1,5 @@
 
-#Number of maximum reccursive attempts
+#Number of maximum reccursive attempts - when there are commands (types 1, 2 and 3) inside commands.
 recursive_attempts: 3
 
 

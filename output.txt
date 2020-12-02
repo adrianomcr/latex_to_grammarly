@@ -14,4 +14,4 @@ This is a REV inside another REV with a TEXTIT inside and some text and some tex
 
 \test{green} \notlabel{something}
 
-This is a textin red - This is a textin green - \nottextcolor{green}{This is NOT a textin yellow}
+This is a text in red - This is a text in green - \nottextcolor{green}{This is NOT a text in yellow}
