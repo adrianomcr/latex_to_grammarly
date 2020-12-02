@@ -1,0 +1,25 @@
+
+\color{black}
+
+
+
+
+
+
+
+
+Note that, according to Proposition \ref{prop:pert}, the volume of the set $\mathcal{I}$ increases as $\Delta_u$ increases, as expected. It is also interesting to observe that the faster is the movement of the curve, represented by the value of $v_{m}$, the greater is the volume of $\mathcal{I}$. If $\Delta_u=0$ it follows that $\mathcal{I}(t)$ collapses to the curve $\mathcal{C}(t)$.
+
+
+
+
+
+
+
+The result in Proposition \ref{prop:pert} clarifies one more geometric interpretation of our result. \rev{In the presence of uncertainties, the distance that defines the system's ultimate bound is dependent on the function $G(D)$ and on the maximum velocity error $\Delta_u$. The faster the function $G$ approaches $1$ as $D$ increases, smaller is the set $\mathcal{I}$.} It also shows the isotropic property of the field, meaning that deviations from the curve are equally compensated by the convergent component in all directions perpendicular to the tangent vector.
+
+
+
+In conclusion, in the presence of limited disturbances, the state $\mathbf{x}$ converges to the set $\mathcal{I}(t)$, which corresponds to a region around the curve $\mathcal{C}(t)$. Given the isotropic property of the field, this region is a circular tube around the curve and its cross-section radius is given by the bound in (\ref{invariant_set}).
+
+

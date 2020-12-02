@@ -1,0 +1,8 @@
+
+
+Note that, according to Proposition 1, the volume of the set A increases as B increases, as expected. It is also interesting to observe that the faster is the movement of the curve, represented by the value of C, the greater is the volume of D. If E it follows that F collapses to the curve G.
+
+The result in Proposition 2 clarifies one more geometric interpretation of our result. In the presence of uncertainties, the distance that defines the system's ultimate bound is dependent on the function H and on the maximum velocity error J. The faster the function K approaches L as M increases, smaller is the set N. It also shows the isotropic property of the field, meaning that deviations from the curve are equally compensated by the convergent component in all directions perpendicular to the tangent vector.
+
+In conclusion, in the presence of limited disturbances, the state O converges to the set P, which corresponds to a region around the curve Q. Given the isotropic property of the field, this region is a circular tube around the curve and its cross-section radius is given by the bound in (3).
+
