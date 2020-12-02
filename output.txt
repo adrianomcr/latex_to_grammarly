@@ -1,8 +1,17 @@
+Given a normalized vector field B, the limit set at a point C, D, is the set of all different values the vector field E can have when we approach F for all the possible directions. That is, G, in which H is the set of directions J such that the limit exists. Use equation (1) to show the result in equation (4). The steps are presented in [1] and also in [2] 
 
+It holds that
 
-Note that, according to Proposition 1, the volume of the set A increases as B increases, as expected. It is also interesting to observe that the faster is the movement of the curve, represented by the value of C, the greater is the volume of D. If E it follows that F collapses to the curve G.
+The proof is conclided by using result in (2) into (3).
 
-The result in Proposition 2 clarifies one more geometric interpretation of our result. In the presence of uncertainties, the distance that defines the system's ultimate bound is dependent on the function H and on the maximum velocity error J. The faster the function K approaches L as M increases, smaller is the set N. It also shows the isotropic property of the field, meaning that deviations from the curve are equally compensated by the convergent component in all directions perpendicular to the tangent vector.
+Noindeted text
 
-In conclusion, in the presence of limited disturbances, the state O converges to the set P, which corresponds to a region around the curve Q. Given the isotropic property of the field, this region is a circular tube around the curve and its cross-section radius is given by the bound in (3).
+Visit xquadufmg.com
 
+This is a textit This is a rev This is a emph
+
+This is a REV inside another REV with a TEXTIT inside and some text and some text
+
+\test{green} \notlabel{something}
+
+This is a textin red - This is a textin green - \nottextcolor{green}{This is NOT a textin yellow}
