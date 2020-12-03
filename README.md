@@ -2,6 +2,15 @@
 Script to convert a .tex so that it can be easily checked in Grammarly
 
 
+## Requirement
+
+- Instal PyYAML with pip:
+
+	``sudo pip install PyYAML``
+
+- If you have an older version of PyYAML, update it:
+
+	``sudo pip install -U PyYAML``
 
 ## How to run
 
