@@ -1,7 +1,7 @@
 
 import yaml
 
-MAX_FOR = 2000
+MAX_FOR = 300
 
 class converter():
 
@@ -66,11 +66,46 @@ class converter():
 		count = 0
 		while (count < MAX_FOR):
 			count = count + 1
+			id1 = self.s.find("\%")
+			if(id1 == -1):
+				break
+			self.s = self.s[0:(id1)]+"pc"+self.s[(id1+2):]
+
+		count = 0
+		while (count < MAX_FOR):
+			count = count + 1
 			id1 = self.s.find("%")
 			id2 = self.s.find("\n",id1+1)+1
 			if(id1 == -1):
 				break
 			self.s = self.s[0:id1]+"\n"+self.s[id2:]
+
+
+
+	"""
+	def proc_comments(self):
+
+		print "len: ", len(self.s)
+
+		count = 0
+		base = 0
+		while (count < MAX_FOR):
+			count = count + 1
+			id1 = self.s.find("%", base)
+			base = id1
+			id2 = self.s.find("\n",id1+1)+1
+			if(id1 == -1):
+				break
+			if(self.s[id1-1] == "\\"):
+				print "a"
+				self.s = self.s[0:(id1-1)]+self.s[id1:]
+			else:
+				print "b"
+				self.s = self.s[0:id1]+"\n"+self.s[id2:]
+			print "base: ", base
+
+			print "len: ", len(self.s)
+	"""
 
 
 	def proc_equation_on_text(self):

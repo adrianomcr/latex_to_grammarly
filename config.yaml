@@ -1,27 +1,26 @@
 
 #Number of maximum reccursive attempts - when there are commands (types 1, 2 and 3) inside commands.
-recursive_attempts: 3
+recursive_attempts: 6
 
 
 # \emph{} like
-type_1: ["emph", "textit", "textbf", "rev", "url", "section", "subsection", "subsubsection", "chapter"]
+type_1: ["emph", "textit", "textbf", "rev", "url", "section", "subsection", "subsubsection", "chapter", "paragraph", "href", "caption", "newtext", "question", "todop"]
 
 # \color{blue} like
-type_2: ["color", "label", "vspace", "hspace"]
+type_2: ["color", "label", "vspace", "hspace", "footnote"]
 
 # \textcolor{blue}{} like
 type_3: ["textcolor"]
 
 # \noindent like
-type_4: ["noindent", "QEDA", "QEDB", "item"]
+type_4: ["noindent", "QEDA", "QEDB", "item", "newpage", "LARGE", "%"]
 
 
 # \begin{equation} \end{equation} like
-type_5: ["equation", "eqnarray", "comment", "subequations", "figure", "algorithm", "table", "tabular"]
+type_5: ["equation", "eqnarray", "comment", "subequations", "figure", "algorithm", "table", "tabular", "point"]
 
 # \begin{definition} \end{equation} like
-type_6: ["definition", "lemma", "theorem", "proof", "enumerate", "itemize", "lstlisting", "center"]
-
+type_6: ["definition", "lemma", "theorem", "proof", "enumerate", "itemize", "lstlisting", "center", "proposition", "assumption", "problem", "appendices", "reply"]
 
 
 #Hilight if one of these strings are left on the text
